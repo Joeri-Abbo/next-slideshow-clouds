@@ -4,7 +4,7 @@
     "background_image": "bg.jpg",
     "image_left": "",
     "image_right": "cloud.png",
-    "text_left": "<p>- Redis cloud</p><p>- Digital ocean</p><p>- AWS</p>",
+    "text_left": "<p>- Redis cloud</p><p>- Digital ocean</p><p>- AWS</p><p>- VPC</p><p>- AWS Security Groups</p><p>- IAM</p><p>- RDS</p><p>- S3</p><p>- SQS</p><p>- SNS</p><p>- Route53</p><p>- EC2</p><p>- Cloudwatch</p><p>- Athena</p>",
     "text_right": ""
   },
   {
@@ -20,7 +20,95 @@
     "background_image": "bg.jpg",
     "image_left": "",
     "image_right": "digitalocean.png",
-    "text_left": "<p>Digital Ocean, now commonly referred to as DigitalOcean, is a cloud infrastructure provider that offers cloud services to help businesses deploy, manage, and scale applications. DigitalOcean simplifies cloud computing, making it accessible to developers regardless of their scale – from individual developers to enterprise-level businesses. Here are some of the top features of DigitalOcean:</p><p><br></p><p>- Droplets </p><p>- Managed Databases </p><p>- Kubernetes </p><p>- Spaces and Volumes </p><p>- Marketplace </p><p>- Networking Features </p><p>- Monitoring and Alerts </p><p>- APIs and CLI </p><p>- Simple and Predictable Pricing </p><p>- Community and Documentation</p>",
+    "text_left": "<p>Digital Ocean, now commonly referred to as DigitalOcean, is a cloud infrastructure provider that offers cloud services to help businesses deploy, manage, and scale applications. DigitalOcean simplifies cloud computing, making it accessible to developers regardless of their scale – from individual developers to enterprise-level businesses. Here are some of the top features of DigitalOcean:</p><p><br></p><p>- Droplets</p><p>- Managed Databases</p><p>- Kubernetes</p><p>- Spaces and Volumes</p><p>- Marketplace</p><p>- Networking Features</p><p>- Monitoring and Alerts</p><p>- APIs and CLI</p><p>- Simple and Predictable Pricing</p><p>- Community and Documentation</p>",
+    "text_right": ""
+  },
+  {
+    "title": "AWS",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "aws.png",
+    "text_left": "<p>Amazon Web Services (AWS) is a massive cloud platform that's pretty much a big deal in the tech world. It offers a ton of services (like over 200!) that help companies and developers do everything from hosting websites to crunching big data, all without needing their own hardware. Whether you're launching a startup, building apps, or managing massive amounts of data, AWS has the tools to make it happen. It's like having a giant toolbox where you can pick whatever tool you need, whenever you need it, to build and grow your digital projects. Plus, with AWS, you're using the same platform that big names like Netflix and Spotify use to deliver their services, which is pretty cool.</p><p><br></p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "VPC",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "vpc.png",
+    "text_left": "<p>AWS Virtual Private Cloud (VPC) is like having your own private corner of the cloud where you can set up shop exactly how you like it. Imagine you're building a custom playground but for your web apps and services. With AWS VPC, you can decide who's allowed in, how they get in, and what they can play with once they're inside. You can create isolated networks, pick your own IP address range, set up subnets, and configure route tables and network gateways. It's like setting up your own private, secure, and customizable piece of the internet where your applications can run safely away from prying eyes. Plus, you get to control access with security settings, ensuring only the guests you want can visit.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "AWS Security Groups",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "sg.png",
+    "text_left": "<p>Think of AWS Security Groups as your personal bouncers for your cloud-based applications and services. They're like customizable rules that determine who gets to access your stuff and how. You can set up these rules to allow only certain types of traffic to come in or go out of your virtual machines (EC2 instances) or other resources in your AWS environment. For instance, you might have one rule that says, \"Only let people from this specific IP address use this application on port 80,\" which is like saying, \"Only let my friend from this address come into my party.\" It's a key part of keeping your cloud setup safe, making sure only the right data moves in and out, kind of like having a firewall tailored exactly to your needs.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "IAM",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "iam.png",
+    "text_left": "<p>AWS IAM (Identity and Access Management) is like the bouncer for your AWS club, deciding who gets in and what they can do inside. You can create users, set permissions, and keep your cloud resources secure by controlling access to them. It's all about making sure the right people have the right access to the right resources, keeping everything organized and safe.</p><p><br></p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Route 53",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "route53.png",
+    "text_left": "<p>AWS Route 53 is like the address book for the internet, directing your users to where your website or app lives in the cloud. It connects user requests to the right servers, ensuring people can find your site easily, just like how a GPS navigates you to your destination. Plus, it can check on your site's health and reroute users to a backup if there's trouble, keeping your online presence available and speedy.</p><p><br></p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "AWS SNS ",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "sns.png",
+    "text_left": "<p>AWS SNS (Simple Notification Service) is like a megaphone for your cloud applications. It lets you send out messages or alerts to users, applications, or systems quickly. Whether it's an email notification about a sale or a text message alert for system monitoring, SNS makes sure the right message gets to the right people or systems at the right time, efficiently broadcasting information at scale.</p>",
+    "text_right": ""
+  },
+  {
+    "title": " AWS SQS",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "sqs.png",
+    "text_left": "<p>AWS SQS (Simple Queue Service) is like a line at a coffee shop for your messages. It allows your applications to queue up messages or tasks that need to be processed. This way, even if there's a lot to do, everything gets handled in order, ensuring no task is lost or overlooked, and your applications can work smoothly without tripping over each other or getting overwhelmed.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "AWS S3",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "s3.png",
+    "text_left": "<p>AWS S3 (Simple Storage Service) is like a massive, secure filing cabinet in the cloud. You can store practically anything digital in it—photos, videos, files, website content—and access it from anywhere. It's incredibly durable and available, making sure your data is safe and always reachable when you need it. Plus, you can set rules on who can see or edit your files, keeping your stuff private or sharing it with the world as you choose.</p><p><br></p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "AWS EC2",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "ec2.png",
+    "text_left": "<p>AWS EC2 (Elastic Compute Cloud) is like renting a powerful computer in the cloud. You can choose its size and power, turn it on when you need it, and off when you don't, only paying for what you use. It's perfect for running your applications, from websites to data analysis, giving you the flexibility to scale up or down as your needs change, just like having a computer that grows with your projects.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "ELB NLB",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "elb.png",
+    "text_left": "<p>AWS ELB (Elastic Load Balancer) is like a traffic cop for your web traffic, directing visitors to the most available server. It ensures no single server gets overwhelmed, keeping your website running smoothly even under heavy load.</p><p>AWS NLB (Network Load Balancer) is like ELB's faster, more powerful cousin, optimized for dealing with millions of requests per second while maintaining ultra-low latencies. It's all about speed and efficiency, making sure data packets find the quickest route to their destination within your network.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Athena",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "athena.png",
+    "text_left": "<p>AWS Athena is like a detective for your data stored in the cloud. It allows you to ask questions (run queries) directly on data stored in S3, without the need for complex data warehouse setups. You just pay for the queries you run, making it a cost-effective way to analyze data on-the-fly, find answers, and uncover insights instantly.</p>",
     "text_right": ""
   }
 ]
